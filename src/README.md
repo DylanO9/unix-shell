@@ -1,50 +1,6 @@
 
 
-
 # Unix Shell
----
-
-## How to Run
-
-1. **Build the shell and utilities:**
-    ```sh
-    make
-    ```
-
-2. **Run the shell:**
-    ```sh
-    ./src/tsh
-    ```
-
-3. **Run test utilities:**
-    - Example: `./src/myint`, `./src/myspin`, etc.
-
-4. **Clean build files:**
-    ```sh
-    make clean
-    ```
-
----
-
-## Project Structure
-
-```
-unix-shell/
-├── img/              # Diagrams and images for documentation
-├── src/              # Source code and utilities
-│   ├── tsh.c         # Main shell implementation
-│   ├── tsh           # Compiled shell binary (after make)
-│   ├── myint.c       # Test utility source
-│   ├── myint         # Test utility binary
-│   ├── ...           # Other utilities and sources
-│   ├── traceXX.txt   # Trace files for testing (can be ignored by most users)
-│   └── ...
-└── README.md         # This file
-```
-
-> **Note:** The `src/` folder contains both source files and test traces. The trace files (e.g., `trace01.txt`, `trace02.txt`, ...) are used for grading or testing and can be ignored for normal usage. Binaries like `tsh`, `myint`, etc., are created after running `make`.
-
----
 
 ## Overview
 I implemented a simple Unix shell in C to understand how shells manage processes, handle signals, and implement job control. This project deepened my understanding of:
