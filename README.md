@@ -1,6 +1,4 @@
-import architecture from '../../../img/csapp/shell_lab/architecture.jpg';
-import job_state_machine from '../../../img/csapp/shell_lab/job_state_machine.jpg';
-import execution_flow from '../../../img/csapp/shell_lab/execution_flow.jpg';
+
 
 # Unix Shell
 
@@ -23,21 +21,24 @@ I implemented a simple Unix shell in C to understand how shells manage processes
 ---
 
 ## Diagrams
+
 ### Architecture
 Purpose: View of the system's structure and components
-<img src={architecture} alt="CS:APP architecture" style={{maxWidth: '300px', width: '100%', height: 'auto'}} />
+![CS:APP architecture](./img/architecture.jpg)
 
 ---
+
 
 ### Job State Machine
 Purpose: View the life cycle of a job, and how different signals may move the job to a different state (Running, Stopped, Terminated)
-<img src={job_state_machine} alt="CS:APP job state machine" style={{maxWidth: '700px', width: '100%', height: 'auto'}} />
+![CS:APP job state machine](./img/job_state_machine.jpg)
 
 ---
 
+
 ### Execution Flow
-Purpose: View of a command flowing through the shell to be executed as a builtin or child process(excluding signal handling)
-<img src={execution_flow} alt="CS:APP execution flow" style={{maxWidth: '700px', width: '100%', height: 'auto'}} />
+Purpose: View of a command flowing through the shell to be executed as a builtin or child process (excluding signal handling)
+![CS:APP execution flow](./img/execution_flow.jpg)
 
 ---
 
