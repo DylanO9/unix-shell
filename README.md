@@ -67,7 +67,7 @@ I implemented a simple Unix shell in C to understand how shells manage processes
 ## Diagrams
 
 ### Architecture
-Purpose: View of the system's structure and components
+Purpose: View of the system's structure and components  
 <img src="./img/architecture.jpg" alt="CS:APP architecture" width="300"/>
 
 
