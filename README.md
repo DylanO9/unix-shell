@@ -24,7 +24,8 @@ I implemented a simple Unix shell in C to understand how shells manage processes
 
 ### Architecture
 Purpose: View of the system's structure and components
-![CS:APP architecture](./img/architecture.jpg)
+<img src="./img/architecture.jpg" alt="CS:APP architecture" width="300"/>
+
 
 ---
 
